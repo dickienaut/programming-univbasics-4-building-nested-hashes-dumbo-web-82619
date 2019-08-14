@@ -22,6 +22,7 @@ def monopoly_with_third_tier
 
   hsh = {:railroads => {}}
   hsh[:railroads][:pieces] = 4
+  hsh[:railroads][:rent_in_dollars] = 0
   hsh
 end
 
